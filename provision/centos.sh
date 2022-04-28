@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dnf install -y epel-release vim net-tools tzdata
+yum install -y epel-release vim net-tools tzdata
 timedatectl set-timezone America/Sao_Paulo
 mkdir -p /root/.ssh
 cp /vagrant/files/id_rsa* /root/.ssh
