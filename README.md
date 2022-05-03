@@ -8,8 +8,8 @@ Para clonar o repositório você precisará do [git](https://git-scm.com/), para
 
 Nome            | vCPUs | Memoria RAM | IP             | S.O.         
 ----------------|:-----:|:-----------:|:--------------:|:---------------:
-srv01-ubuntu    | 1     | 1024MB      | 192.168.65.110 | ubuntu/focal64
-srv02-centos    | 1     | 1024MB      | 192.168.65.220 | centos/7
+srv01-ubuntu    | 1     | 1024MB      | 192.168.57.110 | ubuntu/focal64
+srv02-centos    | 1     | 1024MB      | 192.168.57.220 | centos/7
 
 Ao executar os passos de configuração, sua máquina, através do **Vagrant**, criará as máquinas virtuais no **VirtualBox** de forma automática, com todos os softwares que utilizaremos durante o curso. O **Vagrant** nos auxiliará a criar e gerenciar as máquinas de uma maneira muito mais simples e rápida do que se precisássemos instalá-las manualmente.
 
